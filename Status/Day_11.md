@@ -247,6 +247,10 @@ print(list(map(sqrs, lst)))
 ```
 ---
 
+print([i for i in range(1,21) if i%2!=0])
+
+----
+
 # Question 42
 
 ### **Question:**
