@@ -178,6 +178,17 @@ def displayer(groups):
 displayer(grouper(string, width_length))
 ```
 ---
+
+def wrapping_text(wrap_text, wrap_number):
+    start=0
+    iteration_count=round(len(wrap_text)/wrap_number)
+    for i in range(iteration_count+1):
+        print(wrap_text[start:start+4])
+        start+=4
+
+wrapping_text("ABCDEFGHIJKLIMNOQRSTUVWXYZ",4)
+
+---
 # Question 97
 
 ### **Question**
